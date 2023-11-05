@@ -1,6 +1,8 @@
 .custom-nav {
    position: fixed;
+   top: 0;
    width: 100%;
+   z-index: 100;
    background: #fff;
    color: #1d1c1c;
    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
@@ -38,4 +40,32 @@
 
 .nav-link:hover {
    color: #01ddebe9 !important;
+}
+
+/* styling for hero banner and intorduction title */
+.hero-banner {
+   position: relative;
+   background: url(../images/hero-banner.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
+
+.intro-text {
+   display: block;
+   position: absolute;
+   top: 25%;
+   left: 10%;
+   text-align: left;
+}
+
+.hero-banner h1 {
+   color: #ffffff;
+   font-family: "Open Sans", sans-serif;
+   font-size: 7vw;
+   font-style: normal;
+   font-weight: 700;
+   letter-spacing: -3px;
+   text-transform: none;
 }
