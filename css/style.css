@@ -69,3 +69,24 @@
    letter-spacing: -3px;
    text-transform: none;
 }
+
+.skill-title {
+   font-weight: 700;
+   font-size: 2.5rem;
+   margin-bottom: 2rem;
+}
+
+.skill-items {
+   display: flex;
+   flex-wrap: wrap;
+}
+.skill-items div {
+   padding: 1rem 1.5rem;
+   margin-bottom: 1rem;
+   margin-right: 1rem;
+   font-size: 1.2rem;
+   background: rgba(0, 0, 0, 0.85);
+   border-radius: 5px;
+   font-weight: 600;
+   color: #ffffff;
+}
