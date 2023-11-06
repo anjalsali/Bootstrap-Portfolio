@@ -91,6 +91,11 @@
    font-weight: 600;
    color: #ffffff;
 }
+.skill-items > div:hover {
+   color: #000000;
+   background-color: #01ddebe9;
+   border-color: #01ddebe9;
+}
 
 .btn-dark:hover {
    color: #000000;
