@@ -25,7 +25,7 @@
 }
 
 .nav-item {
-   padding: 0 2.5rem;
+   padding: 0 2rem;
    display: inline-block;
    font-size: 1rem;
    text-transform: uppercase;
@@ -135,7 +135,7 @@
    background: #01ddebe9;
    transition: 0.2s;
 }
-.socialicons .icon:hover {
+.icon:hover {
    color: #fff;
 }
 .socialicons > a:hover::after {
