@@ -92,10 +92,8 @@
    color: #ffffff;
 }
 
-.bd-placeholder-img {
-   font-size: 1.125rem;
-   text-anchor: middle;
-   -webkit-user-select: none;
-   -moz-user-select: none;
-   user-select: none;
+.btn-dark:hover {
+   color: #000000;
+   background-color: #01ddebe9;
+   border-color: #01ddebe9;
 }
