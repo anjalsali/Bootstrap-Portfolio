@@ -102,3 +102,42 @@
    background-color: #01ddebe9;
    border-color: #01ddebe9;
 }
+
+.socialicons {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 2rem;
+}
+
+.icon {
+   width: 50px;
+   height: 50px;
+   box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.05);
+   margin: 0 20px;
+   text-align: center;
+   line-height: 50px;
+   font-size: 20px;
+   text-decoration: none;
+   color: #000;
+   border-radius: 50%;
+   position: relative;
+   overflow: hidden;
+}
+.icon:after {
+   content: "";
+   width: 80px;
+   height: 80px;
+   z-index: -1;
+   position: absolute;
+   bottom: -80px;
+   left: 0;
+   background: #01ddebe9;
+   transition: 0.2s;
+}
+.socialicons .icon:hover {
+   color: #fff;
+}
+.socialicons > a:hover::after {
+   bottom: 0;
+}
