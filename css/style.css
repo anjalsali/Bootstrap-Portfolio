@@ -56,7 +56,8 @@
 .intro-text {
    display: block;
    position: absolute;
-   margin-top: 25vh;
+   font-size: xx-large;
+   margin-top: 35vh;
    margin-left: 10vw;
    text-align: left;
    line-height: 3vh;
@@ -70,6 +71,10 @@
    font-weight: 700;
    letter-spacing: -3px;
    text-transform: none;
+}
+
+.intro-span {
+   color: #000000;
 }
 
 /* styling for skills section */
@@ -162,6 +167,34 @@
       background-position: center;
       background-repeat: no-repeat;
       height: 100vh;
+   }
+
+   .intro-text {
+      display: block;
+      position: absolute;
+      font-size: xx-large;
+      margin-top: 60vh;
+      margin-left: 11vw;
+      text-align: left;
+      line-height: 3vh;
+   }
+
+   .hero-banner h1 {
+      color: #ffffff;
+      font-family: "Open Sans", sans-serif;
+      font-size: 14vw;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: -3px;
+      text-transform: none;
+   }
+
+   .intro-span {
+      color: #01ddebe9;
+   }
+
+   .intro-font {
+      font-size: 10vw;
    }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
