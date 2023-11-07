@@ -10,9 +10,9 @@
 }
 
 .navbar-name {
-   font-size: 2rem;
    text-transform: uppercase;
    font-weight: bolder;
+   font-size: xx-large;
    letter-spacing: 5px;
 }
 
@@ -56,8 +56,8 @@
 .intro-text {
    display: block;
    position: absolute;
-   top: 45%;
-   left: 5%;
+   margin-top: 25vh;
+   margin-left: 10vw;
    text-align: left;
    line-height: 3vh;
 }
@@ -144,4 +144,32 @@
 }
 .socialicons > a:hover::after {
    bottom: 0;
+}
+
+/* Styling for media queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .navbar-name {
+      text-transform: uppercase;
+      font-weight: bolder;
+      font-size: large;
+      letter-spacing: 5px;
+   }
+   .hero-banner {
+      position: relative;
+      background: url(../images/hero-banner-portrait.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+   }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 }
